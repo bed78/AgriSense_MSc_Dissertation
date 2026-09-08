@@ -185,6 +185,7 @@ App: http://localhost:5173
 **Author**
 
 Danso — MSc Computer Science 
+
 Dissertation Supervisor: Dr. Fred 
 
 Developed for academic evaluation at Devil's Bridge sensor network site.
