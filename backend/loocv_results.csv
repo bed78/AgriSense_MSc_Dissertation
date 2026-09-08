@@ -1,0 +1,5 @@
+metric,predictor,mae,rmse,n_predicted,n_total,n_skipped,skipped_nodes,snapshot_timestamp
+temp,idw,0.5219810979690648,0.6224530226284756,12,12,0,,2022-09-07 12:00:00+00:00 (window: 12 hours)
+temp,barycentric,0.4082884165290679,0.5195421331364575,4,12,8,ff-01;ff-02;ff-03;ff-05;ff-06;ff-07;ff-10;ff-12,2022-09-07 12:00:00+00:00 (window: 12 hours)
+watermark,idw,0.5777174810183795,1.3094471755431178,12,12,0,,2022-09-07 12:00:00+00:00 (window: 12 hours)
+watermark,barycentric,0.10178819184701121,0.20357638369402242,4,12,8,ff-01;ff-02;ff-03;ff-05;ff-06;ff-07;ff-10;ff-12,2022-09-07 12:00:00+00:00 (window: 12 hours)

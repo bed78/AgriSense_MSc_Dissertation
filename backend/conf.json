@@ -1,0 +1,7 @@
+{
+    "DBUSER": "postgres",
+    "PASSWORD": "postgres",
+    "DBHOST": "127.0.0.1",
+    "DBPORT": 5433,
+    "DBNAME": "postgres"
+}

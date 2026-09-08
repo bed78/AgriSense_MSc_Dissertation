@@ -1,0 +1,33 @@
+<!--
+  Vite entry HTML for the AgriSense frontend.
+  React mounts into #root via /src/main.jsx.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AgriSensors Platform — live visualisation, spatial interpolation, and health monitoring for the Tektelic Kiwi soil sensor network." />
+    <title>Tektelic Kiwi AgriSensors Network</title>
+
+    <!-- The frontend talks to the FastAPI backend on every map/chart/report
+         load; opening the connection early (DNS + TCP + TLS-if-any) before
+         the first actual request shaves latency off that first fetch. -->
+    <link rel="preconnect" href="http://localhost:8000" />
+    
+    <!-- FIX: Provide 'global' for Plotly.js in Vite -->
+    <!-- Plotly.js expects a Node-style global object; Vite doesn't
+         polyfill this by default, so we alias it to window ourselves. -->
+    <script>window.global = window;</script>
+    
+    <!-- Make the app fill the entire browser viewport with no default margins. -->
+    <style>
+      body, html { margin: 0; padding: 0; width: 100%; height: 100%; }
+      #root { width: 100%; height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

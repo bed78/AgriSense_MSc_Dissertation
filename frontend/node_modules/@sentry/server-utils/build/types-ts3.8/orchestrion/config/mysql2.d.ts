@@ -1,0 +1,18 @@
+export declare const mysql2Config: {
+    channelName: string;
+    module: {
+        name: string;
+        versionRange: string;
+        filePath: string;
+    };
+    functionQuery: {
+        className: string;
+        methodName: string;
+        kind: "Callback";
+    };
+}[];
+export declare const mysql2Channels: {
+    readonly MYSQL2_QUERY: "orchestrion:mysql2:query";
+    readonly MYSQL2_EXECUTE: "orchestrion:mysql2:execute";
+};
+//# sourceMappingURL=mysql2.d.ts.map
