@@ -22,7 +22,7 @@ Live Repo: `https://github.com/bed78/AgriSense\_MSc\_Dissertation`
 
 
 
-**Overview**
+Overview
 
 AgriSense ingests soil telemetry (temperature + Watermark moisture), stores it in a TimescaleDB/PostGIS-backed PostgreSQL database, serves it via a FastAPI backend, and visualises it on an interactive React + Leaflet + Plotly frontend.
 
@@ -184,7 +184,8 @@ App: http://localhost:5173
 
 **Author**
 
-Danso — MSc Data ScienceUWTSD — Dissertation Supervisor: Fred
+Danso — MSc Computer Science 
+Dissertation Supervisor: Dr. Fred 
 
 Developed for academic evaluation at Devil's Bridge sensor network site.
 
